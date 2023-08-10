@@ -1,0 +1,1598 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1104</width>
+    <height>1060</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="background">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>-10</y>
+      <width>1141</width>
+      <height>941</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="res.qrc">:/images/board.jpg</pixmap>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="A8">
+    <property name="geometry">
+     <rect>
+      <x>59</x>
+      <y>53</y>
+      <width>104</width>
+      <height>104</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: transparent;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="res.qrc">
+      <normaloff>:/images/brook.png</normaloff>:/images/brook.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>104</width>
+      <height>104</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="B8">
+    <property name="geometry">
+     <rect>
+      <x>161</x>
+      <y>53</y>
+      <width>104</width>
+      <height>104</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: transparent;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="res.qrc">
+      <normaloff>:/images/bhorse.png</normaloff>:/images/bhorse.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>104</width>
+      <height>104</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="A7">
+    <property name="geometry">
+     <rect>
+      <x>59</x>
+      <y>155</y>
+      <width>104</width>
+      <height>104</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: transparent;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="res.qrc">
+      <normaloff>:/images/bpawn.png</normaloff>:/images/bpawn.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>104</width>
+      <height>104</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="B7">
+    <property name="geometry">
+     <rect>
+      <x>161</x>
+      <y>155</y>
+      <width>104</width>
+      <height>104</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: transparent;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="res.qrc">
+      <normaloff>:/images/bpawn.png</normaloff>:/images/bpawn.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>104</width>
+      <height>104</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="D7">
+    <property name="geometry">
+     <rect>
+      <x>364</x>
+      <y>155</y>
+      <width>104</width>
+      <height>104</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: transparent;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="res.qrc">
+      <normaloff>:/images/bpawn.png</normaloff>:/images/bpawn.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>104</width>
+      <height>104</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="C8">
+    <property name="geometry">
+     <rect>
+      <x>262</x>
+      <y>53</y>
+      <width>104</width>
+      <height>104</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: transparent;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="res.qrc">
+      <normaloff>:/images/bbishop.png</normaloff>:/images/bbishop.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>104</width>
+      <height>104</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="C7">
+    <property name="geometry">
+     <rect>
+      <x>262</x>
+      <y>155</y>
+      <width>105</width>
+      <height>104</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: transparent;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="res.qrc">
+      <normaloff>:/images/bpawn.png</normaloff>:/images/bpawn.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>104</width>
+      <height>104</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="D8">
+    <property name="geometry">
+     <rect>
+      <x>364</x>
+      <y>53</y>
+      <width>104</width>
+      <height>105</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: transparent;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="res.qrc">
+      <normaloff>:/images/bqeen.png</normaloff>:/images/bqeen.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>104</width>
+      <height>104</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="G8">
+    <property name="geometry">
+     <rect>
+      <x>668</x>
+      <y>53</y>
+      <width>104</width>
+      <height>104</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: transparent;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="res.qrc">
+      <normaloff>:/images/bhorse.png</normaloff>:/images/bhorse.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>104</width>
+      <height>104</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="H7">
+    <property name="geometry">
+     <rect>
+      <x>769</x>
+      <y>155</y>
+      <width>104</width>
+      <height>104</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: transparent;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="res.qrc">
+      <normaloff>:/images/bpawn.png</normaloff>:/images/bpawn.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>104</width>
+      <height>104</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="F7">
+    <property name="geometry">
+     <rect>
+      <x>566</x>
+      <y>155</y>
+      <width>104</width>
+      <height>104</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: transparent;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="res.qrc">
+      <normaloff>:/images/bpawn.png</normaloff>:/images/bpawn.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>104</width>
+      <height>104</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="H8">
+    <property name="geometry">
+     <rect>
+      <x>769</x>
+      <y>53</y>
+      <width>104</width>
+      <height>104</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: transparent;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="res.qrc">
+      <normaloff>:/images/brook.png</normaloff>:/images/brook.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>104</width>
+      <height>104</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="G7">
+    <property name="geometry">
+     <rect>
+      <x>668</x>
+      <y>155</y>
+      <width>104</width>
+      <height>104</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: transparent;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="res.qrc">
+      <normaloff>:/images/bpawn.png</normaloff>:/images/bpawn.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>104</width>
+      <height>104</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="E8">
+    <property name="geometry">
+     <rect>
+      <x>465</x>
+      <y>53</y>
+      <width>104</width>
+      <height>104</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: transparent;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="res.qrc">
+      <normaloff>:/images/bking.png</normaloff>:/images/bking.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>104</width>
+      <height>104</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="E7">
+    <property name="geometry">
+     <rect>
+      <x>465</x>
+      <y>155</y>
+      <width>104</width>
+      <height>104</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: transparent;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="res.qrc">
+      <normaloff>:/images/bpawn.png</normaloff>:/images/bpawn.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>104</width>
+      <height>104</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="F8">
+    <property name="geometry">
+     <rect>
+      <x>566</x>
+      <y>53</y>
+      <width>105</width>
+      <height>105</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: transparent;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="res.qrc">
+      <normaloff>:/images/bbishop.png</normaloff>:/images/bbishop.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>104</width>
+      <height>104</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="C6">
+    <property name="geometry">
+     <rect>
+      <x>262</x>
+      <y>257</y>
+      <width>104</width>
+      <height>104</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: transparent;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>104</width>
+      <height>104</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="F5">
+    <property name="geometry">
+     <rect>
+      <x>566</x>
+      <y>359</y>
+      <width>104</width>
+      <height>104</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: transparent;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>104</width>
+      <height>104</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="G6">
+    <property name="geometry">
+     <rect>
+      <x>668</x>
+      <y>257</y>
+      <width>104</width>
+      <height>104</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: transparent;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>104</width>
+      <height>104</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="H6">
+    <property name="geometry">
+     <rect>
+      <x>769</x>
+      <y>257</y>
+      <width>104</width>
+      <height>104</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: transparent;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>104</width>
+      <height>104</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="D5">
+    <property name="geometry">
+     <rect>
+      <x>364</x>
+      <y>359</y>
+      <width>104</width>
+      <height>104</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: transparent;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>104</width>
+      <height>104</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="H5">
+    <property name="geometry">
+     <rect>
+      <x>769</x>
+      <y>359</y>
+      <width>104</width>
+      <height>104</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: transparent;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>104</width>
+      <height>104</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="F6">
+    <property name="geometry">
+     <rect>
+      <x>566</x>
+      <y>257</y>
+      <width>104</width>
+      <height>104</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: transparent;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>104</width>
+      <height>104</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="B5">
+    <property name="geometry">
+     <rect>
+      <x>161</x>
+      <y>359</y>
+      <width>104</width>
+      <height>104</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: transparent;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>104</width>
+      <height>104</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="E6">
+    <property name="geometry">
+     <rect>
+      <x>465</x>
+      <y>257</y>
+      <width>104</width>
+      <height>104</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: transparent;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>104</width>
+      <height>104</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="E5">
+    <property name="geometry">
+     <rect>
+      <x>465</x>
+      <y>359</y>
+      <width>104</width>
+      <height>104</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: transparent;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>104</width>
+      <height>104</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="D6">
+    <property name="geometry">
+     <rect>
+      <x>364</x>
+      <y>257</y>
+      <width>104</width>
+      <height>104</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: transparent;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>104</width>
+      <height>104</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="C5">
+    <property name="geometry">
+     <rect>
+      <x>262</x>
+      <y>359</y>
+      <width>104</width>
+      <height>104</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: transparent;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>104</width>
+      <height>104</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="A6">
+    <property name="geometry">
+     <rect>
+      <x>59</x>
+      <y>257</y>
+      <width>104</width>
+      <height>104</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: transparent;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>104</width>
+      <height>104</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="G5">
+    <property name="geometry">
+     <rect>
+      <x>668</x>
+      <y>359</y>
+      <width>104</width>
+      <height>104</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: transparent;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>104</width>
+      <height>104</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="A5">
+    <property name="geometry">
+     <rect>
+      <x>59</x>
+      <y>359</y>
+      <width>104</width>
+      <height>104</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: transparent;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>104</width>
+      <height>104</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="B6">
+    <property name="geometry">
+     <rect>
+      <x>161</x>
+      <y>257</y>
+      <width>104</width>
+      <height>104</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: transparent;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>104</width>
+      <height>104</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="C4">
+    <property name="geometry">
+     <rect>
+      <x>262</x>
+      <y>460</y>
+      <width>104</width>
+      <height>104</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: transparent;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>104</width>
+      <height>104</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="F3">
+    <property name="geometry">
+     <rect>
+      <x>566</x>
+      <y>562</y>
+      <width>104</width>
+      <height>104</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: transparent;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>104</width>
+      <height>104</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="F1">
+    <property name="geometry">
+     <rect>
+      <x>566</x>
+      <y>766</y>
+      <width>104</width>
+      <height>104</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: transparent;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="res.qrc">
+      <normaloff>:/images/wbishop.png</normaloff>:/images/wbishop.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>104</width>
+      <height>104</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="H1">
+    <property name="geometry">
+     <rect>
+      <x>769</x>
+      <y>766</y>
+      <width>104</width>
+      <height>104</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: transparent;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="res.qrc">
+      <normaloff>:/images/wrook.png</normaloff>:/images/wrook.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>104</width>
+      <height>104</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="G4">
+    <property name="geometry">
+     <rect>
+      <x>668</x>
+      <y>460</y>
+      <width>104</width>
+      <height>104</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: transparent;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>104</width>
+      <height>104</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="F2">
+    <property name="geometry">
+     <rect>
+      <x>566</x>
+      <y>664</y>
+      <width>104</width>
+      <height>104</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: transparent;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="res.qrc">
+      <normaloff>:/images/wpawn.png</normaloff>:/images/wpawn.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>104</width>
+      <height>104</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="H4">
+    <property name="geometry">
+     <rect>
+      <x>769</x>
+      <y>460</y>
+      <width>104</width>
+      <height>104</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: transparent;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>104</width>
+      <height>104</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="E1">
+    <property name="geometry">
+     <rect>
+      <x>465</x>
+      <y>766</y>
+      <width>104</width>
+      <height>104</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: transparent;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="res.qrc">
+      <normaloff>:/images/wking.png</normaloff>:/images/wking.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>104</width>
+      <height>104</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="A1">
+    <property name="geometry">
+     <rect>
+      <x>59</x>
+      <y>766</y>
+      <width>104</width>
+      <height>104</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: transparent;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="res.qrc">
+      <normaloff>:/images/wrook.png</normaloff>:/images/wrook.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>104</width>
+      <height>104</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="D3">
+    <property name="geometry">
+     <rect>
+      <x>364</x>
+      <y>562</y>
+      <width>104</width>
+      <height>104</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: transparent;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>104</width>
+      <height>104</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="H3">
+    <property name="geometry">
+     <rect>
+      <x>769</x>
+      <y>562</y>
+      <width>104</width>
+      <height>104</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: transparent;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>104</width>
+      <height>104</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="E2">
+    <property name="geometry">
+     <rect>
+      <x>465</x>
+      <y>664</y>
+      <width>104</width>
+      <height>104</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: transparent;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="res.qrc">
+      <normaloff>:/images/wpawn.png</normaloff>:/images/wpawn.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>104</width>
+      <height>104</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="D2">
+    <property name="geometry">
+     <rect>
+      <x>364</x>
+      <y>664</y>
+      <width>104</width>
+      <height>104</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: transparent;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="res.qrc">
+      <normaloff>:/images/wpawn.png</normaloff>:/images/wpawn.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>104</width>
+      <height>104</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="F4">
+    <property name="geometry">
+     <rect>
+      <x>566</x>
+      <y>460</y>
+      <width>104</width>
+      <height>104</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: transparent;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>104</width>
+      <height>104</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="B3">
+    <property name="geometry">
+     <rect>
+      <x>161</x>
+      <y>562</y>
+      <width>104</width>
+      <height>104</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: transparent;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>104</width>
+      <height>104</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="G2">
+    <property name="geometry">
+     <rect>
+      <x>668</x>
+      <y>664</y>
+      <width>104</width>
+      <height>104</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: transparent;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="res.qrc">
+      <normaloff>:/images/wpawn.png</normaloff>:/images/wpawn.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>104</width>
+      <height>104</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="A2">
+    <property name="geometry">
+     <rect>
+      <x>59</x>
+      <y>664</y>
+      <width>104</width>
+      <height>104</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: transparent;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="res.qrc">
+      <normaloff>:/images/wpawn.png</normaloff>:/images/wpawn.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>104</width>
+      <height>104</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="B2">
+    <property name="geometry">
+     <rect>
+      <x>161</x>
+      <y>664</y>
+      <width>104</width>
+      <height>104</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: transparent;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="res.qrc">
+      <normaloff>:/images/wpawn.png</normaloff>:/images/wpawn.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>104</width>
+      <height>104</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="E4">
+    <property name="geometry">
+     <rect>
+      <x>465</x>
+      <y>460</y>
+      <width>104</width>
+      <height>104</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: transparent;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>104</width>
+      <height>104</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="C2">
+    <property name="geometry">
+     <rect>
+      <x>262</x>
+      <y>664</y>
+      <width>104</width>
+      <height>104</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: transparent;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="res.qrc">
+      <normaloff>:/images/wpawn.png</normaloff>:/images/wpawn.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>104</width>
+      <height>104</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="B1">
+    <property name="geometry">
+     <rect>
+      <x>161</x>
+      <y>766</y>
+      <width>104</width>
+      <height>104</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: transparent;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="res.qrc">
+      <normaloff>:/images/whose.png</normaloff>:/images/whose.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>104</width>
+      <height>104</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="H2">
+    <property name="geometry">
+     <rect>
+      <x>769</x>
+      <y>664</y>
+      <width>104</width>
+      <height>104</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: transparent;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="res.qrc">
+      <normaloff>:/images/wpawn.png</normaloff>:/images/wpawn.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>104</width>
+      <height>104</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="E3">
+    <property name="geometry">
+     <rect>
+      <x>465</x>
+      <y>562</y>
+      <width>104</width>
+      <height>104</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: transparent;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>104</width>
+      <height>104</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="D4">
+    <property name="geometry">
+     <rect>
+      <x>364</x>
+      <y>460</y>
+      <width>104</width>
+      <height>104</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: transparent;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>104</width>
+      <height>104</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="C3">
+    <property name="geometry">
+     <rect>
+      <x>262</x>
+      <y>562</y>
+      <width>104</width>
+      <height>104</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: transparent;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>104</width>
+      <height>104</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="D1">
+    <property name="geometry">
+     <rect>
+      <x>364</x>
+      <y>766</y>
+      <width>104</width>
+      <height>104</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: transparent;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="res.qrc">
+      <normaloff>:/images/wqeen.png</normaloff>:/images/wqeen.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>104</width>
+      <height>104</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="A4">
+    <property name="geometry">
+     <rect>
+      <x>59</x>
+      <y>460</y>
+      <width>104</width>
+      <height>104</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: transparent;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>104</width>
+      <height>104</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="G1">
+    <property name="geometry">
+     <rect>
+      <x>668</x>
+      <y>766</y>
+      <width>104</width>
+      <height>104</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: transparent;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="res.qrc">
+      <normaloff>:/images/whose.png</normaloff>:/images/whose.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>104</width>
+      <height>104</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="G3">
+    <property name="geometry">
+     <rect>
+      <x>668</x>
+      <y>562</y>
+      <width>104</width>
+      <height>104</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: transparent;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>104</width>
+      <height>104</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="C1">
+    <property name="geometry">
+     <rect>
+      <x>262</x>
+      <y>766</y>
+      <width>104</width>
+      <height>104</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: transparent;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="res.qrc">
+      <normaloff>:/images/wbishop.png</normaloff>:/images/wbishop.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>104</width>
+      <height>104</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="A3">
+    <property name="geometry">
+     <rect>
+      <x>59</x>
+      <y>562</y>
+      <width>104</width>
+      <height>104</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: transparent;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>104</width>
+      <height>104</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="B4">
+    <property name="geometry">
+     <rect>
+      <x>161</x>
+      <y>460</y>
+      <width>104</width>
+      <height>104</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: transparent;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>104</width>
+      <height>104</height>
+     </size>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1104</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menureset_game">
+    <property name="title">
+     <string>Game</string>
+    </property>
+    <addaction name="reset"/>
+   </widget>
+   <addaction name="menureset_game"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="reset">
+   <property name="text">
+    <string>Reset game</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
+ <connections/>
+</ui>

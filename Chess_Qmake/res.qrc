@@ -1,0 +1,26 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/board.jpg</file>
+        <file>images/board_src.png</file>
+        <file>images/bbishop.png</file>
+        <file>images/bhorse.png</file>
+        <file>images/bking.png</file>
+        <file>images/bpawn.png</file>
+        <file>images/bqeen.png</file>
+        <file>images/brook.png</file>
+        <file>images/wbishop.png</file>
+        <file>images/whose.png</file>
+        <file>images/wking.png</file>
+        <file>images/wpawn.png</file>
+        <file>images/wqeen.png</file>
+        <file>images/wrook.png</file>
+        <file>sounds/capture.mp3</file>
+        <file>sounds/castle.mp3</file>
+        <file>sounds/game-end.mp3</file>
+        <file>sounds/game-start.mp3</file>
+        <file>sounds/illegal.mp3</file>
+        <file>sounds/move-check.mp3</file>
+        <file>sounds/move.mp3</file>
+        <file>sounds/promote.mp3</file>
+    </qresource>
+</RCC>
